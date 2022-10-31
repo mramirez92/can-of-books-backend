@@ -23,18 +23,20 @@ Express
 <!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
 
 01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
-
+10-31-2022 1:45pm PST server running mongoose
+10-31-2022 1:447pm PST server running axios
+10-31/2022 1:48pm PST server running nodemon
+/
 ## Estimates
 
 
 ## Credit and Collaborations
 
-Name of feature: ________________________________
+Name of feature: Book Model
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 30 mins
 
-Start time: _____
+Start time: 3:55pm
+Finish time: 4:06pm
 
-Finish time: _____
-
-Actual time needed to complete: _____
+Actual time needed to complete: 11 mins
