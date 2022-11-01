@@ -30,9 +30,15 @@ Express
 
 01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
 10-31-2022 1:45pm PST server running mongoose
+
 10-31-2022 1:447pm PST server running axios
-10-31/2022 1:48pm PST server running nodemon
+
+10-31-2022 1:48pm PST server running nodemon
+
 10-31-2022 3:19pm PST server connected to MongoDB
+
+10-31-2022 5:00pm PST server seeding documents to MongoDB
+
 
 ## Estimates
 
