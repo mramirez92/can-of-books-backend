@@ -13,10 +13,6 @@ async function seed(){
 
   await Book.create({
 
-    src: './images/sincerely-media-unsplash.jpg',
-
-    alt: 'Book image by Sincerely Media',
-
     title: 'What It\'s Like to Be a Bird',
 
     description: 'The bird book for birders and nonbirders alike that will excite and inspire by providing a new and deeper understanding of what common, mostly backyard, birds are doing—and why: "Can birds smell?"; "Is this the same cardinal that was at my feeder last year?" "Do robins \'hear\' worms?" ',
@@ -27,9 +23,6 @@ async function seed(){
 
   await Book.create({
 
-    src: './images/sincerely-media-unsplash.jpg',
-
-    alt: 'Book image by Sincerely Media',
 
     title: 'The Body: A Guide for Occupants',
 
@@ -41,9 +34,6 @@ async function seed(){
 
   await Book.create({
 
-    src: './images/sincerely-media-unsplash.jpg',
-
-    alt: 'Book image by Sincerely Media',
 
     title: 'Bloodline by Sidney Sheldon',
 
