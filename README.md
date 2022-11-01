@@ -26,7 +26,7 @@ Express
 10-31-2022 1:45pm PST server running mongoose
 10-31-2022 1:447pm PST server running axios
 10-31/2022 1:48pm PST server running nodemon
-10-31-2022 5:59pm PST server connected to MongoDB
+10-31-2022 3:19pm PST server connected to MongoDB
 ## Estimates
 
 

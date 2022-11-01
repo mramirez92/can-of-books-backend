@@ -48,7 +48,7 @@ app.get('*', (request, response)=> {
   response.status(404).send('Not Available');
 });
 
-app.use((error, request, response, next)=>{
+app.use((error, request, response, next) =>{
   response.status(500).send(error.message);
 });
 
