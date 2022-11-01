@@ -12,7 +12,7 @@ This is a backend server to our frontend. This server will connect our book data
 ## Getting Started
 We will be using MongoDB and Mongoose to create a NoSQL database.The database will use axios to connect to our DB. Our server will then connect to our front end using a server key.
 
------
+----
 
 ## Architecture
 React JavaScript
@@ -39,10 +39,21 @@ Express
 
 10-31-2022 5:00pm PST server seeding documents to MongoDB
 
+11-01-2022 2:23pm PST server has functional post async function to create book documents and send add them to db
 
 ## Estimates
 
------
+Name of feature: post functionality
+
+Estimate of time needed to complete: 30 mins
+
+Start time: 11-01-2022 2:10pm  
+
+Finish time: 11-01-2022 2:25pm
+
+Actual time needed to complete: 15 mins
+
+----
 
 ## Credit and Collaborations
 
@@ -55,7 +66,7 @@ Finish time: 4:06pm
 
 Actual time needed to complete: 11 mins
 
------
+----
 
 ## Team Agreement
 
