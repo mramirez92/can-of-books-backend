@@ -41,9 +41,11 @@ Express
 
 11-01-2022 2:23pm PST server has functional post async function to create book documents and send add them to db
 
+11-01-2022 2:55pm PST server has functional delete async function to delete book document by id
+
 ## Estimates
 
-Name of feature: post functionality
+Name of feature: Post functionality
 
 Estimate of time needed to complete: 30 mins
 
@@ -52,6 +54,15 @@ Start time: 11-01-2022 2:10pm
 Finish time: 11-01-2022 2:25pm
 
 Actual time needed to complete: 15 mins
+
+Name of feature: Delete Functionality
+
+Estimate of time needed to complete: 30 mins
+
+Start time: 11-01-2022 2:40pm PST
+Finish time:  11-01-2022 2:54pm PST
+
+Actual time needed to complete: 14 mins
 
 ----
 
@@ -65,6 +76,8 @@ Start time: 3:55pm
 Finish time: 4:06pm
 
 Actual time needed to complete: 11 mins
+
+
 
 ----
 

@@ -41,6 +41,8 @@ app.get('/books', getBooks);
 
 app.post('/books', postBooks);
 
+// !ask about param
+app.delete('/books/:bookID', deleteBooks);
 
 //  ** ASYNC FUNCTIONS
 
@@ -58,13 +60,25 @@ async function postBooks(request, response, next){
   try{
     let createdBook = await Book.create(request.body);
     response.status(200).send(createdBook);
+    console.log('book created');
   }catch(error){
     next (error);
   }
 }
 
+async function deleteBooks(request, response, next){
+  try{
+    let bookID = request.params.bookID;
+    await Book.findByIdAndDelete(bookID);
+    response.status(200).send('Book was removed.');
+    console.log('book removed');
+  }catch(error){
+    next(error);
+  }
+}
+
 app.get('*', (request, response) => {
-  response.status(404).send('Not Available');
+  response.status(404).send('Our apologies, this book is currently not available.');
 });
 
 app.use((error, request, response, next) => {
