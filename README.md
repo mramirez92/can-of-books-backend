@@ -5,16 +5,18 @@
 
 ## Overview
 
-This is a backend server to our frontend. This server will connect our book database to the front end to render them on our web app. 
+This is a backend server to our frontend. This server will connect our book database to the front end to render them on our web app.
 
 ----
 
 ## Getting Started
+
 We will be using MongoDB and Mongoose to create a NoSQL database.The database will use axios to connect to our DB. Our server will then connect to our front end using a server key.
 
 ----
 
 ## Architecture
+
 React JavaScript
 MongoDB
 Mongoose
@@ -43,6 +45,8 @@ Express
 
 11-01-2022 2:55pm PST server has functional delete async function to delete book document by id
 
+11-02-2022 4:31 EST server now has functional PUT async function to modify book data and send it back to db
+
 ## Estimates
 
 Name of feature: Post functionality
@@ -64,6 +68,16 @@ Finish time:  11-01-2022 2:54pm PST
 
 Actual time needed to complete: 14 mins
 
+Name of feature: PUT functionality
+
+Estimate of time needed to complete: 30 mins
+
+Start time: 11-01-2022 4:15pm  EST
+
+Finish time: 11-01-2022 4:31pm EST
+
+Actual time needed to complete: 16 mins
+
 ----
 
 ## Credit and Collaborations
@@ -76,8 +90,6 @@ Start time: 3:55pm
 Finish time: 4:06pm
 
 Actual time needed to complete: 11 mins
-
-
 
 ----
 
@@ -93,18 +105,18 @@ Actual time needed to complete: 11 mins
 - How often will you take breaks?
   - Whenever we need to, if necessary
 - What is your plan if you start to fall behind?
-  - Communicate concerns to each other and seek outside input. 
+  - Communicate concerns to each other and seek outside input.
 
 ### Cooperative
 
- - Make a list of each person’s strengths.
+    - Make a list of each person’s strengths.
 
-   - Nerissa: Styling pages, willingness to learn
-    - Monica: Curious, Perseverance, Researching
+      - Nerissa: Styling pages, willingness to learn
+      - Monica: Curious, Perseverance, Researching
 
 - How can you best utilize these strengths in the development of your application?
 
-  - We can bounce ideas off of each other and ask for input when we get stuck. 
+  - We can bounce ideas off of each other and ask for input when we get stuck.
 
 - In what areas do you each want to develop greater strength?
 
@@ -113,7 +125,7 @@ Actual time needed to complete: 11 mins
 
 - Knowing that every person in your team needs to understand the code, how do you plan to approach the day-to-day development?
 
-  - Code Review first thing before moving on to the next phase of the web app. Any concerns will be addressed at the beginning of the day. 
+  - Code Review first thing before moving on to the next phase of the web app. Any concerns will be addressed at the beginning of the day.
 
 ### Conflict Resolution
 

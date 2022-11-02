@@ -25,7 +25,7 @@ app.use(express.json());
 const PORT = process.env.PORT || 3002;
 
 
-// ** ENDPOINTS 
+// ** ENDPOINTS
 
 app.get('/test', (request, response) => {
 
@@ -43,6 +43,8 @@ app.post('/books', postBooks);
 
 // !ask about param
 app.delete('/books/:bookID', deleteBooks);
+
+app.put('/books/:bookID', updateBook);
 
 //  ** ASYNC FUNCTIONS
 
@@ -76,6 +78,24 @@ async function deleteBooks(request, response, next){
     next(error);
   }
 }
+
+async function updateBook(request, response, next){
+  try {
+    // request.params
+    let id = request.params.bookID;
+    // request.body
+    let data = request.body;
+
+    const updatedBook = await Book.findByIdAndUpdate(id, data, { new: true, overwrite: true });
+
+    // send response
+    response.status(200).send(updatedBook);
+
+  } catch(error) {
+    next(error);
+  }
+}
+
 
 app.get('*', (request, response) => {
   response.status(404).send('Our apologies, this book is currently not available.');
